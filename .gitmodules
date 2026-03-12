@@ -1,0 +1,3 @@
+[submodule "TournamentStreamHelper"]
+	path = TournamentStreamHelper
+	url = https://github.com/Smitty-C/TournamentStreamHelper.git
