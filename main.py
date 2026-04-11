@@ -12,6 +12,35 @@ OBS_DIR = str(BASE_DIR / 'OBS-Studio')
 OBS_SETTINGS_DIR = Path(os.path.expandvars("%APPDATA%"))/'obs-studio'
 OBS_SCENE_JSON_PATH = Path(BASE_DIR) / 'RDU_TKN_obs_files' / 'rdu_tkn_scene_collection.json'
 
+OBS_ASSETS_DIR = Path(BASE_DIR) / 'RDU_TKN_obs_files' / 'assets'
+OBS_ASSETS = [
+    'rdu_stinger.webm',
+    'red_outline_left_gradient.png',
+    'red_outline_right_gradient.png',
+    't8_bg.png',
+    'tk8_website_animated.webm',
+    'twitch.png',
+    'twitter.png',
+    'youtube.png'
+]
+
+# This function recursively searches through a json object to find the lowest level key value pair whose value contains 'searchStr' substring
+g_assetDict = {}
+def recursiveDictSearch(d, searchStr):
+    for k,v in d.items():
+        if searchStr in str(v):
+            if isinstance(v, dict):
+                recursiveDictSearch(v, searchStr)
+            else:
+                if isinstance(v, list):
+                    for dictList in v:
+                        if isinstance(dictList, dict):
+                            recursiveDictSearch(dictList, searchStr)
+                        else:
+                            g_assetDict[k] = v
+                else:
+                    g_assetDict[k] = v
+
 print('')
 
 # Check if OBS exists or not
@@ -47,6 +76,22 @@ if not OBS_SETTINGS_DIR.is_dir():
 else:
     print('Found OBS settings directory at ' + str(OBS_SETTINGS_DIR))
 
-# Update scene .json file with current filepaths
+# Load OBS scene json
 with open(OBS_SCENE_JSON_PATH, 'r+') as scene_json_file:
     scene_json = json.load(scene_json_file)
+
+    # Update each asset in json
+    for curr_asset in OBS_ASSETS:
+        # Find asset in json
+        print(curr_asset)
+        g_assetDict.clear()
+        recursiveDictSearch(scene_json, curr_asset)
+        if g_assetDict:
+            for k,v in g_assetDict.items():
+                print(k,v)
+        else:
+            print('Warning! Did not find ' + curr_asset + ' in json')
+
+
+
+
