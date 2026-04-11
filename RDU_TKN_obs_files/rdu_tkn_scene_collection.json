@@ -11,7 +11,7 @@
         "mixers": 199,
         "sync": 0,
         "flags": 0,
-        "volume": 0.71614336967468262,
+        "volume": 0.7161433696746826,
         "balance": 0.5,
         "enabled": true,
         "muted": true,
@@ -144,11 +144,11 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 413.99996948242188
+                            "y": 413.9999694824219
                         },
                         "scale": {
-                            "x": 0.66874998807907104,
-                            "y": 0.67037039995193481
+                            "x": 0.668749988079071,
+                            "y": 0.6703703999519348
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -497,7 +497,7 @@
             "settings": {
                 "transition_point": 1000,
                 "audio_fade_style": 1,
-                "path": "C:/rdu-TSH-5.751/Portable_OBS022024/rdu_stinger.webm"
+                "path": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/rdu_stinger.webm"
             }
         }
     ],
@@ -515,7 +515,7 @@
     "modules": {
         "scripts-tool": [
             {
-                "path": "C:/rdu-TSH-5.751/Portable_OBS022024/data/obs-plugins/frontend-tools/scripts/advanced-timer.lua",
+                "path": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/scripts/advanced-timer.lua",
                 "settings": {
                     "source": "Timer",
                     "reset_hotkey": [],
@@ -690,8 +690,8 @@
                             "y": 179.99996948242188
                         },
                         "scale": {
-                            "x": 0.66874998807907104,
-                            "y": 0.67037039995193481
+                            "x": 0.668749988079071,
+                            "y": 0.6703703999519348
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1119,8 +1119,8 @@
                             "y": 176.0
                         },
                         "scale": {
-                            "x": 0.67135417461395264,
-                            "y": 0.67129629850387573
+                            "x": 0.6713541746139526,
+                            "y": 0.6712962985038757
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1158,8 +1158,8 @@
                             "y": 176.0
                         },
                         "scale": {
-                            "x": 0.67083334922790527,
-                            "y": 0.67129629850387573
+                            "x": 0.6708333492279053,
+                            "y": 0.6712962985038757
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1277,7 +1277,7 @@
             "settings": {
                 "color_range": 2,
                 "ffmpeg_options": "",
-                "local_file": "C:/rdu-TSH-5.751/Portable_OBS022024/tk8_website_animated.webm",
+                "local_file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/tk8_website_animated.webm",
                 "looping": true
             },
             "mixers": 255,
@@ -1562,7 +1562,7 @@
                         },
                         "scale": {
                             "x": 0.1692708283662796,
-                            "y": 0.0092592593282461166
+                            "y": 0.009259259328246117
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1600,8 +1600,8 @@
                             "y": 955.0
                         },
                         "scale": {
-                            "x": 0.86847198009490967,
-                            "y": 0.86805558204650879
+                            "x": 0.8684719800949097,
+                            "y": 0.8680555820465088
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1673,7 +1673,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/rdu-TSH-5.751/TournamentStreamHelper-5.953/layout/bracket/index.html",
+                "local_file": "D:/Stuff/rdu_tkn/RDU_TKN/TournamentStreamHelper/layout/bracket/index.html",
                 "width": 1920,
                 "height": 1080,
                 "css": ""
@@ -2048,7 +2048,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/rdu-TSH-5.751/TournamentStreamHelper-5.953/layout/commentators/tag_twitter.html",
+                "local_file": "D:/Stuff/rdu_tkn/RDU_TKN/TournamentStreamHelper/layout/commentators/tag_twitter.html",
                 "width": 1920,
                 "height": 1080,
                 "shutdown": false,
@@ -2189,7 +2189,7 @@
             "mixers": 195,
             "sync": 0,
             "flags": 0,
-            "volume": 0.44243919849395752,
+            "volume": 0.4424391984939575,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2217,7 +2217,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/rdu-TSH-5.751/TournamentStreamHelper-5.751/layout/rdu_tkn_logo.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/rdu_tkn_logo.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2580,7 +2580,7 @@
             "versioned_id": "image_source",
             "settings": {
                 "undo_uuid": "c9757e14-fed1-41e3-b376-93c6a14a648e",
-                "file": "C:/rdu-TSH-5.751/Portable_OBS022024/t8_bg.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/t8_bg.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2606,7 +2606,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/rdu-TSH-5.751/Portable_OBS022024/red_outline_left_gradient.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/red_outline_left_gradient.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2632,7 +2632,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/rdu-TSH-5.751/Portable_OBS022024/red_outline_right_gradient.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/red_outline_right_gradient.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2895,7 +2895,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/rdu-TSH-5.751/TournamentStreamHelper-5.953/layout/scoreboard/rdu_t8.html",
+                "local_file": "D:/Stuff/rdu_tkn/RDU_TKN/TournamentStreamHelper/layout/scoreboard/rdu_t8.html",
                 "width": 1920,
                 "height": 1080
             },
@@ -3139,7 +3139,7 @@
                         },
                         "scale": {
                             "x": 0.19218750298023224,
-                            "y": 0.19259259104728699
+                            "y": 0.192592591047287
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3415,8 +3415,8 @@
                             "y": -104.0
                         },
                         "scale": {
-                            "x": 0.37250000238418579,
-                            "y": 0.37250000238418579
+                            "x": 0.3725000023841858,
+                            "y": 0.3725000023841858
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3571,8 +3571,8 @@
                             "y": 322.0
                         },
                         "scale": {
-                            "x": 1.0249999761581421,
-                            "y": 1.0249999761581421
+                            "x": 1.024999976158142,
+                            "y": 1.024999976158142
                         },
                         "align": 5,
                         "bounds_type": 2,
@@ -3727,8 +3727,8 @@
                             "y": 942.0
                         },
                         "scale": {
-                            "x": 0.93999999761581421,
-                            "y": 0.93999999761581421
+                            "x": 0.9399999976158142,
+                            "y": 0.9399999976158142
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -3844,8 +3844,8 @@
                             "y": 932.0
                         },
                         "scale": {
-                            "x": 0.96555554866790771,
-                            "y": 0.97000002861022949
+                            "x": 0.9655555486679077,
+                            "y": 0.9700000286102295
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -4111,7 +4111,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/rdu-TSH-5.751/TournamentStreamHelper-5.953/layout/top_8/index.html",
+                "local_file": "D:/Stuff/rdu_tkn/RDU_TKN/TournamentStreamHelper/layout/top_8/index.html",
                 "width": 1920,
                 "height": 1080,
                 "css": ""
@@ -4368,7 +4368,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/rdu-TSH-5.751/Portable_OBS022024/twitch.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/twitch.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -4426,7 +4426,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/rdu-TSH-5.751/Portable_OBS022024/twitter.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/twitter.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -4578,7 +4578,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/rdu-TSH-5.751/Portable_OBS022024/youtube.png"
+                "file": "D:/Stuff/rdu_tkn/RDU_TKN/RDU_TKN_obs_files/assets/youtube.png"
             },
             "mixers": 0,
             "sync": 0,
