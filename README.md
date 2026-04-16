@@ -26,6 +26,5 @@ NOTE: This setup guide is written from the perspective of someone with zero git/
 5. Post installation steps
     - Launch OBS (setup.py automatically launches OBS for you)
     - Import profile by going to Profile > Import > C:/Path/To/RDU_TKN/RDU_TKN_obs_files/obs_profile > Select Folder. Then select 
-    - Import scene collection by going to Scene Collection > Import > Click the three dots under Collection Path > " \
-"C:/Path/To/RDU_TKN/RDU_TKN_obs_files/rdu_tkn_scene_collection.json > Open > Import. Then select rdu_tkn_scene_collection in the dropdown menu under Scene Collection
+    - Import scene collection by going to Scene Collection > Import > Click the three dots under Collection Path > C:/Path/To/RDU_TKN/RDU_TKN_obs_files/rdu_tkn_scene_collection.json > Open > Import. Then select rdu_tkn_scene_collection in the dropdown menu under Scene Collection
     - Microphones/Webcams then have to be manually assigned after plugging them into the PC running OBS. This can be done by selecting mic 1/mic 2 under Sources, then choosing the desired microphone in the Devices dropdown menu. Same idea for webcams, but you click Properties to access the dropdown menu.
