@@ -31,7 +31,7 @@ if not OBS_DIR.is_dir():
     obs_filename = wget.download(OBS_DOWNLOAD_URL, out=str(BASE_DIR))  # Download OBS
     shutil.unpack_archive(obs_filename, str(OBS_DIR))                  # Unzip
     Path(obs_filename).unlink()                                        # Delete old .zip file
-    print("\nDownloaded OBS to " + str(OBS_DIR))
+    print("Downloaded OBS to " + str(OBS_DIR))
 else:
     print("Found OBS installation at " + str(OBS_DIR))
 
@@ -89,12 +89,12 @@ obs_bin_path = OBS_DIR / 'bin' / '64bit'
 obs_subprocess = subprocess.Popen(obs_bin_path / 'obs64.exe', cwd=obs_bin_path, creationflags=subprocess.DETACHED_PROCESS)
 
 # Instruct user to select correct scenes. OBS does not provide a way to import scenes from command line.
-print("/////////////////////////////////////IMPORTANT!/////////////////////////////////////")
-print("TO FINISH SETTING UP OBS YOU MUST MANUALLY SELECT YOUR SCENE COLLECTION AND PROFILE")
-print("\nIMPORTING PROFILE : From within OBS go to Profile > Import > C:/Path/To/RDU_TKN/RDU_TKN_obs_files/obs_profile > Select Folder")
+print("\n\n//////////////////////////////////////////IMPORTANT!//////////////////////////////////////////")
+print("\nTO FINISH SETTING UP OBS YOU MUST MANUALLY SELECT YOUR SCENE COLLECTION AND PROFILE IN OBS")
+print("\nIMPORTING PROFILE : From within OBS go to Profile > Import > C:/Path/To/RDU_TKN/RDU_TKN_obs_files/obs_profile > Select Folder. Then select \"RDU_TKN\" in the dropdown menu under Profile")
 print("\nIMPORTING SCENE COLLECTION : From within OBS go to Scene Collection > Import > Click the three dots under Collection Path > " \
-"C:/Path/To/RDU_TKN/RDU_TKN_obs_files/rdu_tkn_scene_collection.json > Open > Import > Scene Collection > rdu_tkn_scene_collection")
-print("\n/////////////////////////////////////////////////////////////////////////////////")
+"C:/Path/To/RDU_TKN/RDU_TKN_obs_files/rdu_tkn_scene_collection.json > Open > Import. Then select \"rdu_tkn_scene_collection\" in the dropdown menu under Scene Collection")
+print("\n//////////////////////////////////////////////////////////////////////////////////////////////")
 
 
 
