@@ -83,6 +83,19 @@ with open(OBS_SCENE_JSON_PATH, 'r+') as scene_json_file:
     json.dump(scene_json, scene_json_file, ensure_ascii=False, indent=4)
     print('JSON settings updated. Settings saved at ' + str(OBS_SCENE_JSON_PATH))
 
+# Launch OBS
+print("Launching OBS to setup scene collection and profile...")
+obs_bin_path = OBS_DIR / 'bin' / '64bit'
+obs_subprocess = subprocess.Popen(obs_bin_path / 'obs64.exe', cwd=obs_bin_path, creationflags=subprocess.DETACHED_PROCESS)
+
+# Instruct user to select correct scenes. OBS does not provide a way to import scenes from command line.
+print("/////////////////////////////////////IMPORTANT!/////////////////////////////////////")
+print("TO FINISH SETTING UP OBS YOU MUST MANUALLY SELECT YOUR SCENE COLLECTION AND PROFILE")
+print("\nIMPORTING PROFILE : From within OBS go to Profile > Import > C:/Path/To/RDU_TKN/RDU_TKN_obs_files/obs_profile > Select Folder")
+print("\nIMPORTING SCENE COLLECTION : From within OBS go to Scene Collection > Import > Click the three dots under Collection Path > " \
+"C:/Path/To/RDU_TKN/RDU_TKN_obs_files/rdu_tkn_scene_collection.json > Open > Import > Scene Collection > rdu_tkn_scene_collection")
+print("\n/////////////////////////////////////////////////////////////////////////////////")
+
 
 
 
