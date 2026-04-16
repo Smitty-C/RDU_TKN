@@ -3,10 +3,10 @@
 This repository stores assets used for RDU Tekken Streams for both Open Broadcaster Software (OBS) and Tournament Stream Helper (TSH). Additionally this repository also contains scripts used for automatically setting up a new installation of OBS and TSH.
 
 This functions by running a python script which does the following:
-    - Checks to see if OBS is installed, if not then downloads it.
-    - Checks to see if OBS' settings directory exists. If not then quickly launches and closes OBS to force create it.
-    - OBS stores scene settings in .json files. Next the script updates filepaths in that .json file relative to your machine.
-    - Then prints out some post installation steps that must be done manually. Unfortunately selecting an OBS scene collection must be done via their GUI and cannot be automated.
+- Checks to see if OBS is installed, if not then downloads it.
+- Checks to see if OBS' settings directory exists. If not then quickly launches and closes OBS to force create it.
+- OBS stores scene settings in .json files. Next the script updates filepaths in that .json file relative to your machine.
+- Then prints out some post installation steps that must be done manually. Unfortunately selecting an OBS scene collection must be done via their GUI and cannot be automated.
 
 ### Prerequisites ###
 
